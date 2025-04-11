@@ -7,7 +7,7 @@
 👉 **برای استفاده در Notion، این آدرس را کپی کرده و به‌صورت Embed وارد کنید:**
 
 ```
-https://github.com/pigment-dev/notion-jalali-calendar/
+https://pigment-dev.github.io/notion-jalali-calendar/
 ```
 
 ## 📌 نحوه استفاده در Notion
