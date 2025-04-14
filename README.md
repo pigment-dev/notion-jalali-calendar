@@ -31,6 +31,16 @@ git clone https://github.com/pigment-dev/notion-jalali-calendar.git
 ```
 
 
+✅ ویجت تاریخ شمسی
+```
+https://pigment-dev.github.io/notion-jalali-calendar/jdate.html
+```
+
+✅ ویجت تاریخ میلادی
+```
+https://pigment-dev.github.io/notion-jalali-calendar/gdate.html
+```
+
 ## 🖼️ تصویر پیش‌نمایش
 
 <img src="shot.png" width="128">
