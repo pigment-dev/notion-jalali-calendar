@@ -30,6 +30,8 @@ https://pigment-dev.github.io/notion-jalali-calendar/
 git clone https://github.com/pigment-dev/notion-jalali-calendar.git
 ```
 
+## 💥 لینک تقویم های جانبی
+
 
 ✅ ویجت تاریخ شمسی
 ```
@@ -40,6 +42,17 @@ https://pigment-dev.github.io/notion-jalali-calendar/jdate.html
 ```
 https://pigment-dev.github.io/notion-jalali-calendar/gdate.html
 ```
+
+✅ ویجت تاریخ شمسی تیره
+```
+https://pigment-dev.github.io/notion-jalali-calendar/djdate.html
+```
+
+✅ ویجت تاریخ میلادی تیره
+```
+https://pigment-dev.github.io/notion-jalali-calendar/dgdate.html
+```
+
 
 ## 🖼️ تصویر پیش‌نمایش
 

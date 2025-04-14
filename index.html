@@ -1,7 +1,7 @@
 <!--
 @Author: Amirhossein Hosseinpour <https://amirhp.com>
 @Last modified by: amirhp-com <its@amirhp.com>
-@Last modified time: 2025/04/14 12:23:19
+@Last modified time: 2025/04/14 12:34:24
 -->
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
@@ -36,9 +36,16 @@
         background: #f8f8f8;
         color: #000;
         border-radius: 20px;
-        padding: 30px 40px;
+        padding: 20px 20px;
         text-align: center;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        width: 160px;
+        height: 160px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
       }
       .day {
         font-size: 14px;
@@ -71,7 +78,10 @@
     </style>
   </head>
   <body>
-    <div class="date-box" id="date-box" title="Click to copy jDate
+    <div
+      class="date-box"
+      id="date-box"
+      title="Click to copy jDate
 Developed by @amirhp_com
 with ☕️ & 🧡 at Pigment.Dev">
       <div class="day" id="day"></div>
@@ -142,9 +152,13 @@ with ☕️ & 🧡 at Pigment.Dev">
       );
       document.getElementById("day").innerText = weekDays[now.getDay()];
       document.getElementById("day-number").innerText = jd;
-      document.getElementById("month-year").innerText = `${monthNames[jm - 1]} ${jy}`;
+      document.getElementById("month-year").innerText = `${
+        monthNames[jm - 1]
+      } ${jy}`;
       document.getElementById("date-box").addEventListener("click", () => {
-        const formatted = `${jy}/${String(jm).padStart(2, "0")}/${String(jd).padStart(2, "0")}`;
+        const formatted = `${jy}/${String(jm).padStart(2, "0")}/${String(
+          jd
+        ).padStart(2, "0")}`;
         navigator.clipboard.writeText(formatted).then(() => {
           const box = document.getElementById("date-box");
           box.classList.remove("flash");
